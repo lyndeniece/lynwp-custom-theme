@@ -1,0 +1,337 @@
+.main-home-page-container {
+
+	/* Banner Start */
+	.main-banner-container {
+		background-color: #87509c;
+		.row {
+			height: 486px;
+			.content-container {
+				text-align: center;
+				h1 {
+					color: #fff;
+					font-size: 42px;
+				    font-weight: 600;
+				    margin-bottom: 50px;
+				}
+			}
+		}
+	} /* Banner End */
+
+
+	/* Services Start */
+	.main-services-container {
+		background-color: #17c2a4;
+		padding: 106px 0;
+		.intro-container {
+			text-align: center;
+			max-width: 604px;
+		    width: 100%;
+		    margin: auto;
+		    padding: 0 0 50px;
+			h2 {
+				color: #fff;
+			    font-weight: 700;
+			    text-transform: uppercase;
+			    font-size: 40px;
+			}
+			p {
+				color: #fff;
+			    font-size: 18.5px;
+			}
+		}
+		.services-container {
+			.services {
+				text-align: center;
+				padding: 0 28px;
+				img {
+
+				}
+				h3 {
+					color: #fff;
+					text-transform: uppercase;
+					font-size: 24px;
+					font-weight: 700;
+					margin: 54px 0 24px;
+				}
+				p {
+					font-weight: 300;
+					color: #fff;
+				}
+			}
+		}
+	} /* Services End */
+
+
+	/* Team Start */
+	.main-team-container {
+		background-color: #e7f1f8;
+		padding: 116px 0 124px;
+		.intro-container {
+			text-align: center;
+		    width: 100%;
+		    margin: auto;
+		    padding: 0 0 56px;
+			h2 {
+				color: $dark-blue;
+			    font-weight: 700;
+			    text-transform: uppercase;
+			    font-size: 40px;
+			}
+			p {
+				color: $dark-blue;
+			    font-size: 18.5px;
+			}
+		}
+		.team-container {
+			text-align: center;
+			.team-member {
+				padding: 0 28px;
+				&:hover .image-container {
+					transform: translateY(-20px);
+				}
+				.image-container {
+					width: 200px;
+					height: 200px;
+					margin: 0 auto 40px;
+					background-color: #878787;
+					position: relative;
+					clip-path: circle();
+					transition: transform 250ms;
+					img {
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						bottom: 0;
+						max-width: none;
+					    width: 216px;
+					}
+				}
+				.member-details {
+					.member-name {
+						color: #27283d;
+						font-size: 24px;
+						font-weight: 700;
+						text-transform: uppercase;
+					}
+					.member-position {
+						font-size: 16px;
+						font-weight: 400;
+						color: #30bae7;
+					}
+					p {
+						font-weight: 300;
+						color: 16px;
+					}
+					.smm-icons {
+						ul {
+							padding: 0;
+						    margin: 0;
+						    list-style: none;
+							li {
+								display: inline-block;
+								margin: 0 4px;
+								a {
+									width: 28px;
+								    height: 28px;
+								    background-color: #bdd1df;
+								    color: #fff;
+								    display: flex;
+								    align-items: center;
+								    justify-content: center;
+								    border-radius: 100%;
+								    i.fa {
+								    	font-weight: 400;
+								    }
+								    &.email i.fa {
+								    	font-weight: 900;
+								    }
+								    &:hover {
+								    	text-decoration: none;
+								    	background-color: #30bae7;
+							    	    transition: all .2s;
+								    }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	} /* Team End */
+
+
+	/* Skills Start */
+	.main-skills-container {
+		padding: 106px 0;
+		.intro-container {
+			text-align: center;
+		    width: 100%;
+		    margin: auto;
+		    padding: 0 0 56px;
+		    max-width: 600px;
+			h2 {
+				color: $dark-blue;
+			    font-weight: 700;
+			    text-transform: uppercase;
+			    font-size: 40px;
+			}
+			p {
+				color: $dark-blue;
+			    font-size: 18.5px;
+			}
+		}
+
+		.progressbar h3 {
+		    text-align: center;
+		    font-size: 24px;
+		    font-weight: 700;
+		    text-transform: uppercase;
+		    margin: 30px 0 0 0;
+		}
+	} /* Skills End */
+
+
+	/* Portfolio Start */
+	.main-portfolio-container {
+		background-color: $light-yellow;
+		padding: 106px 0;
+		.intro-container {
+			text-align: center;
+		    width: 100%;
+		    margin: auto;
+		    max-width: 600px;
+			h2 {
+				color: $dark-grey;
+			    font-weight: 700;
+			    text-transform: uppercase;
+			    font-size: 40px;
+			}
+			p {
+				color: $dark-grey;
+			    font-size: 18.5px;
+			    margin: 0;
+			}
+		}
+
+		.portfolio-container {
+			#filterContainer {
+			    text-align: center;
+			    margin: 40px 0 60px;
+			    .btn {
+			    	text-transform: uppercase;
+			    	background-color: #ebc985;
+			    	font-size: 18px;
+			    	font-weight: 400;
+			    	color: $dark-grey;
+			    	min-width: 82px;
+			    	margin: 0 5px;
+			    	&.active {
+			    		background-color: #fff;
+			    	}
+			    	&:hover {
+			    		background-color: #fff;
+			    	}
+			    	&:focus {
+			    		outline: none;
+			    		box-shadow: none;
+			    	}
+			    }
+			}
+			.portfolio {
+				position: relative;
+			    float: left;
+			    width: 48%;
+			    // margin: 0 10px;
+			    padding: 0 10px;
+				.portfolio-content {
+					padding: 0 0 28px;
+					text-align: center;
+					h3 {
+						font-size: 18px;
+					    font-weight: 400;
+					    text-align: center;
+					    text-transform: uppercase;
+					    padding: 28px 0 0;
+					}
+				}
+				&.hidden {
+				    visibility: hidden;
+				    display: none;
+				}
+			}
+			#load-more {
+				text-align: center;
+				margin: 20px auto 0;
+			}
+
+		}
+	} /* Portfolio End */
+
+
+
+	/* Contact Start */
+	.main-contact-container {
+		background-color: #3c5499;
+		padding: 106px 0;
+		.intro-container {
+			text-align: center;
+		    width: 100%;
+		    margin: auto;
+		    padding: 0 0 46px;
+			h2 {
+				color: #fff;
+			    font-weight: 700;
+			    text-transform: uppercase;
+			    font-size: 40px;
+			}
+			p {
+				color: #fff;
+			    font-size: 18.5px;
+			    a {
+					color: #fff;
+			    }
+			}
+		}
+		.contact-form-container {
+			form {
+				input[type=text],
+				input[type=email],
+				textarea {
+					background-color: #273a71;
+				    color: #fff;
+				    outline: none;
+				    border: none;
+				    border-radius: 4px;
+				    width: 100%;
+				    padding: 14px 20px;
+				    font-size: 18px;
+				    margin: 12px 0;
+				    display: block;
+				    &::-webkit-input-placeholder {
+				    	color: #fff;
+				    }
+				    &::-moz-placeholder {
+				    	color: #fff;
+				    }
+				}
+				input[type=submit] {
+					color: #fff;
+					margin: 56px auto 0;
+					display: block;
+				}
+				label.error {
+					color: #fff;
+					font-size: 12px;
+					margin-bottom: 0 !important;
+					position: relative;
+					top: -14px;
+					padding: 0 20px;
+				}
+			}
+		}
+	} /* Contact End */
+
+
+}
+

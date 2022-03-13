@@ -1,0 +1,20 @@
+/*
+Theme Name: LynWP_starter
+Theme URI: https://github.com/lyndeniece
+Author: Kathlyn Maximo
+Author URI: https://lyndeniece.wordpress.com/
+Description: A clean starter theme based on Bootstrap
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: SASS, clean, bootstrap
+Text Domain: LynWP_starter
+*/
+
+@import "lynwp";
+@import "../assets/css/shared/global";
+@import "../assets/css/shared/header";
+@import "../assets/css/shared/footer";
+@import "../assets/css/shared/progressbar";
+@import "../assets/css/shared/responsive";
+@import "../assets/css/pages/front-page";
